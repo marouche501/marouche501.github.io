@@ -1,0 +1,31 @@
+body {
+	background:url(image/image7.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+ h1 {
+ 	color: #F08080;
+ 	transition: all 4s ease-in-out;
+ 	text-transform: uppercase;
+ 	
+ }
+
+footer {
+	text-align: center;
+	background: transparent;
+	padding: 10px;
+	font-size: 10px;
+	font-weight: bold;
+	color: white;
+}
+
+video {
+	width:500px; 
+	height:300px;
+}
+ p {
+ 	color: white;
+ 	font-size: 20px;
+ }

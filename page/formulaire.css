@@ -1,0 +1,82 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: fantasy;
+	box-sizing: border-box;
+}
+body {
+	background:url(image/image5.jpg); 
+	height: 100%;
+	width: 100%;
+	display: table;
+	text-align: center;
+	justify-content: center;
+	background-color: #696969;
+	background-size: 100%;
+}
+
+
+
+
+	
+.loging-box {
+
+    
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+	padding:8.5%;
+
+}
+
+
+h1 {
+	transition: all 4s ease-in-out;
+	color: #FF69B4;
+}
+
+.form-control {
+	width: 400px;
+	background-color: transparent;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.control-submit {
+ background-color: transparent;
+ color: gray;
+ border-color: gray;
+}
+
+
+.formulaire {
+	width: 300px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: black;
+	font-size: 18px;
+	margin-bottom: 16px;
+	transition: all 4s ease-in-out;
+	background-color: transparent;
+	
+}
+.control-submit:hover{
+	color: #FF69B4;;
+}
+
+footer {
+	text-align: center;
+	background: transparent;
+	padding: 10px;
+	font-size: 10px;
+	font-weight: bold;
+	color: white;
+}
+
+p {
+	color: white;
+	font-size: 25px;
+}

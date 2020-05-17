@@ -1,0 +1,129 @@
+*{
+	box-sizing: border-box;
+}
+
+
+body{
+	background:url(image/image1.jpg);
+	background-color:#8A2BE2;
+	margin:0px;
+	font-family:'Balsamiq Sans', cursive;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+
+
+/* BAR DE NAVIGATION */
+header {
+	background-color: #FFD700;
+}
+
+header::after {
+content: '';
+display: table;
+clear: both;
+}
+
+.logo	 {
+	float: left;
+	height:80px;
+	padding-left:10px;
+	padding-top: 5px;
+}
+
+nav {
+	float: right;
+}
+nav ul {
+    list-style:none; /*pour enlever les picos*/
+    margin:0px;
+}
+ 
+nav li{
+	display: inline-block;
+	margin-left:80px;
+	padding-top:30px;
+	padding-right: 5px;
+	position: relative;
+}
+
+ nav a {
+ 	color: #C71585;
+ 	text-transform: uppercase;
+ 	text-decoration: none;	
+ }
+
+ nav a:hover {
+ 	color: #708090;
+ }
+
+nav a::before{
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #708090;
+	position: absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 700ms; 
+}
+
+nav a:hover::before {
+	width: 100%
+
+}
+/* LE CENTRE DE WEBSITE */
+.container {
+
+	max-width: 1200px;
+	margin: auto;
+	overflow: auto;
+}
+
+.galerry{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 390px;
+}
+
+.galerry img {
+	width: 100%;
+	height: auto;
+	
+
+}
+
+
+
+}
+
+.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	background: transparent;
+	padding: 10px;
+	font-size: 10px;
+	font-weight: bold;
+	color: white;
+}
+#mac {
+	color: white;
+	text-align: center;
+}
+
+#camera {
+	color: white;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+

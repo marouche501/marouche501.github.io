@@ -1,0 +1,46 @@
+body {
+	background:url(image/image6.jpg); 
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+.loging-box {
+
+padding: 300px;
+
+
+}
+
+
+.formulaire {
+	width: 300px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid black;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 16px;
+	transition: all 4s ease-in-out;
+	background-color: transparent;
+	
+}
+
+ 
+.control-submit {
+	background-color: transparent;
+	border-color: black;
+}
+.control-submit:hover{
+	color: red;
+}
+footer {
+	text-align: center;
+	background: transparent;
+	padding: 10px;
+	font-size: 10px;
+	font-weight: bold;
+	color: white;
+}

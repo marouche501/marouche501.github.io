@@ -1,0 +1,53 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	border: 15px solid grey;
+	height: 100%;
+	padding-left: 20px;
+
+
+
+
+}
+
+h3 {
+	color: blue;
+	padding-top: 20px;
+	padding-bottom: 35px;
+	text-transform: uppercase;
+}
+
+h1 {
+
+	padding-bottom: 35px;
+
+
+}
+
+.content p::before {
+content:"";
+height: 32px;
+width: 4px;
+background: gray;
+float: left;
+
+}
+
+
+.container {
+	padding-bottom: 50px;
+
+}
+
+footer {
+	text-align: center;
+	background: transparent;
+	padding: 10px;
+	font-size: 10px;
+	font-weight: bold;
+	color: black;
+}

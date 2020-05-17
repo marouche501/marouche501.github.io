@@ -1,0 +1,46 @@
+	* {
+	margin: 0;
+	padding: 0;
+	font-family: fantasy;
+	box-sizing: border-box;
+
+}
+ 
+body {
+	background:url(image/image8.jpeg);
+	height: 100%;
+	width: 100%;
+	display: table;
+	text-align: center;
+	justify-content: center;
+	background-color: #696969;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+	
+	
+
+.about-section {
+	color: black;
+	background-size: 100%;
+	padding-bottom: 340px;
+	padding-top: 10px;
+
+}
+
+img {
+	height: 20px;
+	width: 20px;
+}
+
+
+
+footer {
+	text-align: center;
+	background: transparent;
+	padding: 10px;
+	font-size: 10px;
+	font-weight: bold;
+	color: white;
+}
